@@ -5,7 +5,7 @@ I have made this repository to practice with Java and remember knowledge in data
 
 ## What is data structures?
 
-Programming Languages use many ways to storage data. The ways used for, is called "data structure". All programming languages have two ways to storage data in memory: primitive types and data structures. The primitive types, in general, are saved directely in memory, with a binary representation, so
+Programming Languages use many ways to storage data. The ways used for, is called "data structure". All programming languages have two ways to storage data in memory: primitive types and data structures. The primitive types, in general, are saved directly in memory, with a binary representation, so
 they are numeric types in general.
 
 In Java Language we have 8 primitive types: 
@@ -34,4 +34,16 @@ On other hand, data structures are not saved directely, but by a reference. Inst
 
 ## My Implementations
 
- 
+ <details>
+  <summary>Node</summary>
+
+  <p>
+    <a href="./src/main/java/br/edu/datastructures/Node.java">implementation</a>
+  </p>
+  <p>
+    The Node is a simple data structure that stores a value or other data structure
+    and one or more addresses to other Nodes. In this implementation the node points
+    to just one other Node with same value type. This structure is a basis to others
+    data structures.
+  </p>
+ </details>

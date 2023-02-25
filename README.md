@@ -52,7 +52,7 @@ On other hand, data structures are not saved directely, but by a reference. Inst
   <summary>Stack</summary>
 
   <p>
-    <a href="./src/main/java/br/edu/datastructures/Stack.java">Implementation</a>
+    <a href="./src/main/java/br/edu/datastructures/Queue.java">Implementation</a>
   </p>
   <p>
     The Stack is one of the main data structures. The stacks satisfy the rule LIFO
@@ -75,6 +75,36 @@ On other hand, data structures are not saved directely, but by a reference. Inst
       <li>
         <b>Top()</b>
           <p>Returns the object of the Node at the top of stack</p>
+      </li>
+    <ul>
+ </details>
+ <details>
+  <summary>Queue</summary>
+
+  <p>
+    <a href="./src/main/java/br/edu/datastructures/Queue.java">Implementation</a>
+  </p>
+  <p>
+    The Queue is one of the main data structures. The Queues satisfy the rule FIFO
+    i.e. First In First Out. The first Node to be enqueued must be the first one to
+    be dequeued. The Class have 4 methods:
+  </p>
+    <ul>
+      <li>
+        <b>Enqueue(T object)</b>
+          <p>Enqueue a Node with the T object at the front of queue</p>
+      </li>
+      <li>
+        <b>Dequeue()</b>
+          <p>Dequeue the Node at the front of queue</p>
+      </li>
+      <li>
+        <b>isEmpty()</b>
+          <p>Returns true if the queue is empty and false otherwise</p>
+      </li>
+      <li>
+        <b>firstNode()</b>
+          <p>Returns the object of the Node at the front of queue</p>
       </li>
     <ul>
  </details>

@@ -61,11 +61,11 @@ On other hand, data structures are not saved directely, but by a reference. Inst
   </p>
     <ul>
       <li>
-        <b>Push(T object)</b>
+        <b>push(T object)</b>
           <p>Push a Node with the T object at the top of stack</p>
       </li>
       <li>
-        <b>Pop()</b>
+        <b>pop()</b>
           <p>Pop the Node at the top of stack</p>
       </li>
       <li>
@@ -73,7 +73,7 @@ On other hand, data structures are not saved directely, but by a reference. Inst
           <p>Returns true if the stack is empty and false otherwise</p>
       </li>
       <li>
-        <b>Top()</b>
+        <b>top()</b>
           <p>Returns the object of the Node at the top of stack</p>
       </li>
     <ul>
@@ -91,11 +91,11 @@ On other hand, data structures are not saved directely, but by a reference. Inst
   </p>
     <ul>
       <li>
-        <b>Enqueue(T object)</b>
+        <b>enqueue(T object)</b>
           <p>Enqueue a Node with the T object at the front of queue</p>
       </li>
       <li>
-        <b>Dequeue()</b>
+        <b>dequeue()</b>
           <p>Dequeue the Node at the front of queue</p>
       </li>
       <li>
@@ -107,4 +107,45 @@ On other hand, data structures are not saved directely, but by a reference. Inst
           <p>Returns the object of the Node at the front of queue</p>
       </li>
     <ul>
+ </details>
+  <details>
+  <summary>Linked List</summary>
+
+  <p>
+    <a href="./src/main/java/br/edu/datastructures/LinkedList.java">Implementation</a>
+  </p>
+  <p>
+    The Linked List is one of the main data structures. The Linked Lists are similarly to queues and stacks. The diference is that any Node in any position can be gotten or removed.
+    Linked Lists serve to overcome the problem of continuous memory in very large arrays.
+    The structure is most optimized to add and remove elements to the list, but not to get Nodes.
+    The Class have 1 global variable and 4 methods:
+  </p>
+    <ul>
+      <li>
+        <b>long length</b>
+          <p>storage length of list</p>
+      </li>
+      <li>
+        <b>add(T object)</b>
+          <p>Add a Node with the T object at the end of Linked List and increase a unit to
+            length variable.
+          </p>
+      </li>
+      <li>
+        <b>get(long index)</b>
+          <p>get the object of Node at list index, if index is out of range or negative
+            throws a IndexOutOfBoundException.  
+          </p>
+      </li>
+      <li>
+        <b>remove(long index)</b>
+          <p>remove the object of Node at list index, if index is out of range or negative
+            throws a IndexOutOfBoundException.
+          </p>
+      </li>
+      <li>
+        <b>isEmpty()</b>
+          <p>Returns true if the list is empty and false otherwise</p>
+      </li>
+    </ul>
  </details>
